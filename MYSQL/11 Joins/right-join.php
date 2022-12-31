@@ -1,0 +1,6 @@
+Right joins who data bhi show kardeta ha match na kr raha ho Right wali table ka... 
+
+query..............
+SELECT * FROM `products`
+Right purchase_order_items ON products.id = purchase_order_items.product_id
+ORDER By products.id
